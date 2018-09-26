@@ -140,13 +140,18 @@ module.exports = {
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
 
     // @off 自闭和标签的反尖括号必须与尖括号的那一行对齐
-    'react/jsx-closing-bracket-location': [
-      'error',
-      {
-          nonEmpty: false,
-          selfClosing: 'line-aligned'
-      }
-    ],
+    // 'react/jsx-closing-bracket-location': [
+    //   'error',
+    //   {
+    //       nonEmpty: false,
+    //       selfClosing: 'line-aligned'
+    //   }
+    // ],
+
+    /**
+     *
+     */
+    'react/jsx-one-expression-per-line': 'off',
 
     /**
      * @error 如果属性值为 true, 可以直接省略
