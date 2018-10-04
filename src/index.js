@@ -16,3 +16,5 @@ const Root = () => (
 )
 
 export default Root
+
+console.log('hello world')
