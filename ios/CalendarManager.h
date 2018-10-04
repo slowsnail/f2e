@@ -1,4 +1,4 @@
-`//
+//
 //  CalendarManager.h
 //  f2e
 //
@@ -12,4 +12,9 @@
 
 #endif /* CalendarManager_h */
 
-#import <
+#import <React/RCTBridgeModule.h>
+
+@interface CalendarManager: NSObject <RCTBridgeModule>
+
+@end
+
